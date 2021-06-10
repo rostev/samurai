@@ -17,5 +17,12 @@
     user-select: none;
     margin: 5px;
     padding: 10px;
+<<<<<<< HEAD
     background-color: lightcyan;
+=======
+}
+
+.content img {
+    width: 70%;
+>>>>>>> 8b1b236ad04b4d62675a30357153066e5acd076e
 }
