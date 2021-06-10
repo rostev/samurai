@@ -37,3 +37,7 @@
     margin: 5px;
     padding: 10px;
 }
+
+.content img {
+    width: 70%;
+}
