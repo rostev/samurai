@@ -1,0 +1,6 @@
+.headerLogo {
+    width: 3%;
+}
+.header {
+    grid-area: h;
+}

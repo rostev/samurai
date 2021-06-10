@@ -1,21 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Components/Header/Header";
+import NavBar from "./Components/Nav/NavBar";
+import Profile from "./Components/Profile/Profile";
 
 function App() {
     return (
         <div className="app-wrapper">
-            <header className="header areas">
-                <img src="https://api.freelogodesign.org/assets/thumb/logo/21888881_400.png"
-                     alt="logo"
-                     className="headerLogo"/>
-            </header>
-            <nav className="nav areas">
-                <div>Profile</div>
-                <div>Message</div>
-                <div>News</div>
-                <div>Music</div>
-            </nav>
-            <div className="content areas">Main content</div>
+            <Header/>
+            <NavBar/>
+            <Profile/>
         </div>
     );
 }

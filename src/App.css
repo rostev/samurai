@@ -7,25 +7,6 @@
     margin: 20px auto;
 }
 
-.header {
-    grid-area: h;
-    background-color: lightseagreen;
-}
-
-.nav {
-    grid-area: n;
-    background-color: lightskyblue;
-}
-
-.content {
-    grid-area: c;
-    background-color: lightsalmon;
-}
-
-.headerLogo {
-    width: 3%;
-}
-
 .areas {
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -36,4 +17,5 @@
     user-select: none;
     margin: 5px;
     padding: 10px;
+    background-color: lightcyan;
 }
