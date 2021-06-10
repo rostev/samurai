@@ -2,24 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app-wrapper">
+            <header className="header areas">
+                <img src="https://api.freelogodesign.org/assets/thumb/logo/21888881_400.png"
+                     alt="logo"
+                     className="headerLogo"/>
+            </header>
+            <nav className="nav areas">
+                <div>Profile</div>
+                <div>Message</div>
+                <div>News</div>
+                <div>Music</div>
+            </nav>
+            <div className="content areas">Main content</div>
+        </div>
+    );
 }
 
 export default App;
